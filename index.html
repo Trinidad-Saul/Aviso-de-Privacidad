@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Registro</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="CSS/main.css">
+     <link rel="stylesheet" href="css/estilo.css" TYPE="text/css">
+     
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+</head>
+     
+<section id=cabezera>
+<nav class="navbar navbar-dark bg-dark">
+    <img src="imagenes/img1.png" class="d-inline-block align-top" alt="" loading="lazy">
+    <h3>Registrarse</h3>
+</nav>
+</section>
+
+<section>
+      <form>
+        <div class="container-fluid"  style="opacity: 90%; width: 80%; height:100%;" >
+            <div class="row justify-content-md-center">
+                <div class="col-sm-8 bg-light rounded">
+      <br>
+        <div class="form-group">
+        <label>USUARIO</label>
+        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Escribe tu usurio" required>
+      </div>
+      <div class="form-group">
+        <label>CORREO</label>
+        <input type="email" name="correo" class="form-control"  placeholder="Escribe tu correo electronico" required>
+      </div>
+      <div class="form-group">
+        <label>CONTRASEÑA</label>
+        <input type="password" name="contraseña" class="form-control"  placeholder="Escribe tu contraseña" required>
+      </div>
+      <div class="form-group">
+        <label>Edad</label>
+        <input type="text" name="edad" class="form-control" placeholder="Escribe tu edad" required>
+      </div>
+      <button type="submit" class="btn btn-danger" id="btnRegistro">Registar</button>
+      </form>
+    </section>
+
+
+      <div class="modal fade" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+             <div class="modal-header">
+                <h3>Politica de Aviso de privacidad</h3>
+             </div>
+             <div class="modal-body">
+                Somo smuy consiente de lo importante que es la privacidad para usted.Con 
+                el propósito de describir en detalle nuestro proceso de recoleccion de infromacion personal,
+                hemos revisado la politica de privacidad minuciosamente de conformidad con las leyes y normativas
+                más recientes.Al hacr clic en Acepto, reconoce que ha leido y comprendido y aceptado completamente
+                todos los contenidos de la 
+                <a href="Terminos.html">politica de privacidad.</a>
+         </div>
+             <div class="modal-footer">
+            <a href="#" data-dismiss="modal" class="btn btn-danger">Acuerdo</a>
+            <a href="#" data-dismiss="modal" class="btn btn-danger">Desacuerdo</a>
+             </div>
+        </div>
+     </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
